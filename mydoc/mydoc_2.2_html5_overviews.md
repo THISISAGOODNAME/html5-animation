@@ -29,7 +29,7 @@ if (document.createElement('canvas').getContext) {
 &#160; &#160; &#160; &#160;下表列出了主流Web浏览器开始支持canvas元素的最小版本号
 
  IE|Firefox|Safari|Chrome|Opera|iOS Safari|Android
----|-------|------|------|-----|----------|-------|
+:--:|:-----:|:----:|:----:|:---:|:--------:|:-----:|
 9|3.5|3.2|9|10.6|3.2|2.1
 
 ## HTML5基本文档
