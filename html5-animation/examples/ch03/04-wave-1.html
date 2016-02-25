@@ -29,6 +29,9 @@
         context.clearRect(0, 0, canvas.width, canvas.height);
 
         ball.x += xspeed;
+
+        if (ball.x > canvas.width) ball.x = 0;
+
         ball.y = centerY + Math.sin(angle) * range;
         angle += yspeed;
         ball.draw(context);

@@ -85,15 +85,15 @@ entries:
         output: web
         thirdlevelitems:
         - title: 平滑的上下运动
-          url: /mydoc/tag_getting_started.html
+          url: /mydoc/mydoc_3.4.1.html
           audience: writers, designers
           platform: all
           version: all
           product: all
           output: web
 
-        - title: 垂直线性运动
-          url: /mydoc/tag_formatting.html
+        - title: 添加垂直线性运动
+          url: /mydoc/mydoc_3.4.2.html
           audience: writers, designers
           platform: all
           version: all
@@ -101,7 +101,7 @@ entries:
           output: web
 
         - title: 脉冲运动
-          url: /mydoc/tag_formatting.html
+          url: /mydoc/mydoc_3.4.3.html
           audience: writers, designers
           platform: all
           version: all
@@ -109,7 +109,15 @@ entries:
           output: web
 
         - title: 使用两个角产生波
-          url: /mydoc/tag_formatting.html
+          url: /mydoc/mydoc_3.4.4.html
+          audience: writers, designers
+          platform: all
+          version: all
+          product: all
+          output: web
+
+        - title: 使用绘图API产生的波
+          url: /mydoc/mydoc_3.4.5.html
           audience: writers, designers
           platform: all
           version: all
@@ -118,7 +126,15 @@ entries:
 
 
     - title: 圆与椭圆
-      url: /mydoc/mydoc_conditions_file_customization.html
+      url: /mydoc/mydoc_3.5.html
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: 两点间的距离
+      url: /mydoc/mydoc_3.6.html
       audience: writers, designers
       platform: all
       product: all
@@ -126,7 +142,7 @@ entries:
       output: web, pdf
 
     - title: 本节重要公式
-      url: /mydoc/mydoc_top_navigation.html
+      url: /mydoc/mydoc_3.7.html
       audience: writers, designers
       platform: all
       product: all
