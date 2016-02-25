@@ -50,7 +50,7 @@ summary: "本节主要是动画循环相关的知识"
 
 &#160; &#160; &#160; &#160;同一套规则(e.g:球向右移动5像素)会不断重复利用，构成循环，就能形成动画。但是，下面的解释是许多初学者的一种误解：循环的运行依赖于几乎所有编程语言中的while循环结构
 
-```js
+```javascript
 while(true) {
 	ball.x += 1;
 }
@@ -65,7 +65,7 @@ while(true) {
 
 &#160; &#160; &#160; &#160;所以，代码实质应该是一个类似下面的代码
 
-```js
+```javascript
 function drawFrame() {
 	ball.x += 1;
 	ball.draw(context);
@@ -80,7 +80,7 @@ window.setInterval(drawFrame, 1000/60);
 
 &#160; &#160; &#160; &#160;由于开发者对基于HTML5的动画兴趣日益增长，Web浏览器专门为JavaScript的开发者实现了一个API，用过它提供了基于浏览器的优化实现。 window.requestAnimationFrame 接受一个回调函数作为参数，并确保在重绘屏幕之前执行该回调函数。可以通过对 requestAnimationFrame 函数的链式调用实现动画循环：
 
-```js
+```javascript
 (function drawFrame(){
 	window.requestAnimationFrame(drawFrame, canvas);
 	
@@ -96,7 +96,7 @@ window.setInterval(drawFrame, 1000/60);
 
 &#160; &#160; &#160; &#160;由于 requestAnimationFrame 是一个相对新的功能，因此目前的浏览器还致力于各自的实现。如果希望代码具备更好的跨平台性，下面一段代码可以用来规范该函数在不同浏览器中的实现。
 
-```js
+```javascript
 if (!window.requestAnimationFrame) {
   window.requestAnimationFrame = (window.webkitRequestAnimationFrame ||
                                   window.mozRequestAnimationFrame ||
