@@ -5,44 +5,36 @@ type: first_page
 homepage: true
 ---
 
-## Overview 
+## 动画
 
-This site provides documentation, training, and other notes for the Jekyll Documentation theme. There's a lot of information about how to do a variety of things here, and it's not all unique to this theme. But by and large, understanding how to do things in Jekyll depends on how your theme is coded. As a result, these additional details are provided.
+&#160; &#160; &#160; &#160;动画是运动。运动是一个物体随着时间在空间中改变它的位置，将数学公式应用于改变一个物体的位置后，就可以决定它的下一时刻的位置并影响运动的行为。
 
-The instructions here are geared towards technical writers working on documentation. You may have a team of one or more technical writers working on documentation for multiple projects. You can use this same theme to author all of your documentation for each of your products. The theme is set up to push out documentation for multiple projects all from the same source. You can also share content across projects.
+&#160; &#160; &#160; &#160;在运动之外，它还包括对任意可视属性的变化，如形状、大小，方向与颜色等。一些早期的电脑动画通过循环变化颜色模拟运动。例如，以某种频率改变大量形状不一的蓝色像素的色调就可以模拟水的流动，从而创造出瀑布，在此过程中没有一个物体的位置变化。
 
-## Survey of features
+&#160; &#160; &#160; &#160;时间是动画的基本组成部分。它是用于表现对象位置变化的途径。没有时间就没有运动。同理，没有运动，我们也无法感知时间。 
 
-Some of the more prominent features of this theme include the following:
 
-* Bootstrap framework
-* Sidebar for table of contents
-* Top navigation bar with drop-down menus
-* PDF generation (through Prince XML utility)
-* Build scripts to automate the workflow
-* Notes, tips, and warning information notes
-* A nifty system for creating links to different pages
-* Tags for alternative nativation
-* Content sharing across projects
-* Emphasis on pages, not posts
-* Relative (rather than absolute) link structure, so you can push the outputs anywhere and easily view them
+## 帧与运动
 
-I'm using this theme for my documentation projects, building about 20 different outputs for various products, versions, languages, and audiences from the same set of files. This single sourcing requirement has influenced how I constructed this theme.
+&#160; &#160; &#160; &#160;几乎所有的动画都采用帧实现运动。
 
-For more discussion about the available features, see {{site.data.mydoc.mydoc_urls.mydoc_supported_features.link}}.
+&#160; &#160; &#160; &#160;帧是将一系列离散的图像以极快的速度连续播放从而模拟运动或变化。帧实现动画的概念很简单：当我们连续播放一系列略有差别的图像时，大脑会将他们想象成一幅不断运动的图像。
 
-## Getting started
+&#160; &#160; &#160; &#160;电影业对这个频率做了大量的实验。研究表明将频率保持在24帧每秒，人们就会把这些帧视为一张运动的图像。低于此频率，人们就会感觉到跳帧，但是高帧率人眼不一定能分辨。
 
-To get started, see these three topics:
+### 记录帧
 
-1. {{site.data.mydoc.mydoc_urls.mydoc_getting_started.link}}
-2. {{site.data.mydoc.mydoc_urls.mydoc_configuration_settings.link}}
-3. {{site.data.mydoc.mydoc_urls.mydoc_adding_new_projects.link}}
+&#160; &#160; &#160; &#160;帧的概念使3件事得以实现：存储、传播以及播放。是对一个系统在某一个特定时间点的记录。系统存储对象在某一特定时刻的形状、颜色、位置等图像描述信息，并根据这些信息创建并显示图像，这一思想衍生出的程序帧。
 
-## PDF Download Option for Help Material
+### 程序帧
 
-If you would like to download this help file as a PDF, you can do so here. The PDF is comprehensive of all the content in the online help.   
+&#160; &#160; &#160; &#160;将很长的帧描述简化为对起始帧的一个描述，然后根据某些特定规则构建后续帧。
 
-<a target="_blank" class="noCrossRef" href="files/{{site.pdf_file_name}}"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> PDF Download</button></a>
+## 小结
 
-The PDF contains a timestamp in the header indicating when it was last generated. 
+&#160; &#160; &#160; &#160;动画的组成
+
+- 动画由帧组成，每一帧在表现运动的假象上有细微差别
+- 逐帧动画包含每一帧的图像或图像描述
+- 动态动画包含一幅图片的起始描述以及后续每一帧图像的变化规则
+

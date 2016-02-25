@@ -53,23 +53,7 @@ entries:
       output: web, pdf
 
     - title: 用代码实现动画
-      url: /mydoc/mydoc_about.html
-      audience: writers, designers
-      platform: all
-      product: all
-      version: all
-      output: web
-
-    - title: JavaScript对象
-      url: /mydoc/mydoc_support.html
-      audience: writers, designers
-      platform: all
-      product: all
-      version: all
-      output: web
-
-    - title: 用户交互
-      url: /mydoc/mydoc_support.html
+      url: /mydoc/mydoc_2.3_animation cycle.html
       audience: writers, designers
       platform: all
       product: all
