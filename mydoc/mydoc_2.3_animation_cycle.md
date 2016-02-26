@@ -9,7 +9,7 @@ summary: "本节主要是动画循环相关的知识"
 <script type="text/javascript" src="http://cdn.bootcss.com/mermaid/0.5.8/mermaid.min.js"></script>
 <script>mermaid.initialize({startOnLoad:true});</script>
 
-&#160; &#160; &#160; &#160;在准备好HTML5文件的基本模板支护，已经可以编码了，只要再有一个支持HTML5的web浏览器，就完事具备
+&#160; &#160; &#160; &#160;在准备好HTML5文件的基本模板之后，已经可以编码了，只要再有一个支持HTML5的web浏览器，就完事具备
 
 ## 动画循环
 
